@@ -65,7 +65,13 @@
         </div>
         <div class="modal-body">
           <p>
-            Estamos trabalhando nisso! Qualquer dúvida entre em contato pelo <a href="https://instagram.com/brunomodinuti" target="_blank">instagram</a>.
+            Para criar uma conversa entre com o <label>código do pais</label>, <label>DDD</label> e o <label>telefone</label>.
+            <br /><br />
+            <label>Exemplo</label>: Suponha que você deseje enviar uma mensagem para alguém de São Paulo Capital. Você precisará digitar <label>55</label> (Código do Brasil), <label>11</label> (DDD) e <label>999999999</label> (O número do contato). Ficando desta maneira <label>5511999999999</label>. Após informar corretamente os dados, clique no botão <label>Criar Conversa</label>.
+            <br /><br />
+            <label>Importante!</label> Nenhuma informação fica registrada em nosso sistema.
+            <br /><br />
+            Qualquer dúvida entre em contato pelo e-mail <label>suporte@zappgo.com</label>.
           </p>
         </div>
         <div class="modal-footer">

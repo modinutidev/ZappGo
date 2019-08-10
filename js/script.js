@@ -1,7 +1,9 @@
 function send(){
   number=$('input').val();
   if(number==''){
-    alert('Entre com um número de celular para continuar!');
+    $('#help').modal('toggle');
+    // $('#myModal').modal('show');
+    // $('#myModal').modal('hide');
   }else{
     url='https://api.whatsapp.com/send?phone='+number+'&text=';
     $('input').val('');
