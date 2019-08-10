@@ -1,13 +1,13 @@
 function send(){
   number=$('input').val();
-  if(number==''){
+  if(number!='' && number.length > 8){
+    url='https://api.whatsapp.com/send?phone='+number+'&text=Olá!';
+    $('input').val('');
+    window.open(url, '_blank');
+  }else{
     $('#help').modal('toggle');
     // $('#myModal').modal('show');
     // $('#myModal').modal('hide');
-  }else{
-    url='https://api.whatsapp.com/send?phone='+number+'&text=';
-    $('input').val('');
-    window.open(url, '_blank');
   }
 }
 

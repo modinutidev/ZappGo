@@ -66,15 +66,15 @@
         <div class="modal-body">
           <p>
             <label>Como usar?</label><br />
-            Para criar uma conversa entre com o <label>código do pais</label>, <label>DDD</label> e o <label>telefone</label>.
+            Para criar uma conversa entre com o <b>código do pais</b>, <b>DDD</b> e o <b>telefone</b>.
             <br /><br />
             <label>Exemplo</label><br />
-            Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <label>55</label> (Código do Brasil), <label>11</label> (DDD) e <label>999999999</label> (O número do contato). Ficando desta maneira <label>5511999999999</label>. Após informar corretamente os dados, clique no botão <label>Criar Conversa</label>.
+            Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <b>55</b> (Código do Brasil), <b>11</b> (DDD) e <b>999999999</b> (O número do contato). Ficando desta maneira <b>5511999999999</b>. Após informar corretamente os dados, clique no botão <b>Criar Conversa</b>.
             <br /><br />
             <label>Importante</label><br />Nenhuma informação fica registrada em nosso sistema.
             <br /><br />
             <label>Suporte</label><br />
-            Para dúvidas, sugestões ou informações envie seu contato para o e-mail <label>suporte@zappgo.com</label>.
+            Para dúvidas, sugestões ou informações envie seu contato para o e-mail <b>suporte@zappgo.com</b>.
           </p>
         </div>
         <div class="modal-footer">
