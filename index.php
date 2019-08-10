@@ -14,9 +14,9 @@
   <!-- seo -->
   <title>ZappGO - Criador de Conversas WhatsApp</title>
   <meta name="author" content="Bruno Modinuti" />
-  <meta name="generator" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação" />
+  <meta name="generator" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento" />
   <meta name="description" content="Aplicativo online para conversar no WhatsApp sem adicionar o contato no celular. Compatível com web whatsapp, iOS e android." />
-  <meta name="keywords" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação" />
+  <meta name="keywords" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento" />
   <!-- icon -->
   <link rel="icon" href="img/icone_whatsapp.png" type="image/x-icon" />
   <link rel="shortcut icon" href="img/icone_whatsapp.png" type="image/x-icon" />
@@ -67,7 +67,7 @@
           <p>
             Para criar uma conversa entre com o <label>código do pais</label>, <label>DDD</label> e o <label>telefone</label>.
             <br /><br />
-            <label>Exemplo</label>: Suponha que você deseje enviar uma mensagem para alguém de São Paulo Capital. Você precisará digitar <label>55</label> (Código do Brasil), <label>11</label> (DDD) e <label>999999999</label> (O número do contato). Ficando desta maneira <label>5511999999999</label>. Após informar corretamente os dados, clique no botão <label>Criar Conversa</label>.
+            <label>Exemplo</label>: Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <label>55</label> (Código do Brasil), <label>11</label> (DDD) e <label>999999999</label> (O número do contato). Ficando desta maneira <label>5511999999999</label>. Após informar corretamente os dados, clique no botão <label>Criar Conversa</label>.
             <br /><br />
             <label>Importante!</label> Nenhuma informação fica registrada em nosso sistema.
             <br /><br />
