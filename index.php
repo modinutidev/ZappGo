@@ -58,20 +58,23 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Como usar?</h5>
+          <h5 class="modal-title" id="exampleModalLabel">ZappGo</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
           <p>
+            <label>Como usar?</label><br />
             Para criar uma conversa entre com o <label>código do pais</label>, <label>DDD</label> e o <label>telefone</label>.
             <br /><br />
-            <label>Exemplo</label>: Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <label>55</label> (Código do Brasil), <label>11</label> (DDD) e <label>999999999</label> (O número do contato). Ficando desta maneira <label>5511999999999</label>. Após informar corretamente os dados, clique no botão <label>Criar Conversa</label>.
+            <label>Exemplo</label><br />
+            Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <label>55</label> (Código do Brasil), <label>11</label> (DDD) e <label>999999999</label> (O número do contato). Ficando desta maneira <label>5511999999999</label>. Após informar corretamente os dados, clique no botão <label>Criar Conversa</label>.
             <br /><br />
-            <label>Importante!</label> Nenhuma informação fica registrada em nosso sistema.
+            <label>Importante</label><br />Nenhuma informação fica registrada em nosso sistema.
             <br /><br />
-            Qualquer dúvida entre em contato pelo e-mail <label>suporte@zappgo.com</label>.
+            <label>Suporte</label><br />
+            Para dúvidas, sugestões ou informações envie seu contato para o e-mail <label>suporte@zappgo.com</label>.
           </p>
         </div>
         <div class="modal-footer">

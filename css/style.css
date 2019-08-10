@@ -35,8 +35,31 @@ a, a:hover, a:link, a:visited, a:active {
   text-decoration: none;
   font-size: 10px;
   font-weight: bold;
+  background-color: #f4f9fb;
+  padding: 2px 4px;
+  border-radius: 2px;
 }
 p {
   font-size: 12px;
   text-align: justify;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: #5e9e9c;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(94, 158, 156);
+  outline: 0 none;
 }
