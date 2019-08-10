@@ -1,6 +1,6 @@
 body {
-  background-image: url('../img/plano_de_fundo_whatsapp.jpg');
-  background-size: 300px;
+  background-image: url('../img/plano_de_fundo_whatsapp_original.jpg');
+  background-size: 400px;
   background-repeat: repeat;
 }
 .icone {
@@ -33,7 +33,7 @@ label, h5 {
 b, a, a:hover, a:link, a:visited, a:active {
   color: #2a776b;
   text-decoration: none;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bold;
   background-color: #f4f9fb;
   padding: 2px 4px;
