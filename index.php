@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="format-detection" content="telephone=yes" />
   <!-- seo -->
-  <title>ZappGO - Criador de Conversas WhatsApp</title>
+  <title>ZappGo - Criador de Conversas WhatsApp</title>
   <meta name="author" content="Bruno Modinuti" />
   <meta name="generator" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento" />
   <meta name="description" content="Aplicativo online para conversar no WhatsApp sem adicionar o contato no celular. Compatível com web whatsapp, iOS e android." />
