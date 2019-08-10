@@ -1,3 +1,8 @@
+<!-- 
+    Autor: Bruno Modinuti
+    E-mail: modinutidev@gmail.com
+    2019 © Todos os direitos reservados.
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,11 +13,11 @@
     <meta name="format-detection" content="telephone=yes" />
     <!-- seo -->
     <title>ZappGO - Criador de Conversas WhatsApp</title>
-    <meta name="author" content="" />
-    <meta name="generator" content="" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!-- ICON -->
+    <meta name="author" content="Bruno Modinuti" />
+    <meta name="generator" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação" />
+    <meta name="description" content="Aplicativo online para conversar no WhatsApp sem adicionar o contato no celular. Compatível com web whatsapp, iOS e android." />
+    <meta name="keywords" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação" />
+    <!-- icon -->
     <link rel="icon" href="img/icone_whatsapp.png" type="image/x-icon" />
     <link rel="shortcut icon" href="img/icone_whatsapp.png" type="image/x-icon" />
     <!-- bootstrap -->
