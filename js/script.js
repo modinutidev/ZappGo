@@ -9,7 +9,7 @@ function send(){
   }
 }
 
-$('button').click(send);
+$('button[name="create"]').click(send);
 
 $("input").keypress(function(e){//Adiciona ação de actionkey no input
   if(e.which == 13) {
