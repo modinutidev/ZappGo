@@ -1,11 +1,13 @@
 body {
   background-image: url('../img/plano_de_fundo_whatsapp.jpg');
+  background-size: 300px;
   background-repeat: repeat;
 }
 .icone {
   width: 200px;
   height: 200px;
   background-image: url('../img/icone_whatsapp.png');
+  background-size: 200px;
   margin: 0 auto;
 }
 .right {
