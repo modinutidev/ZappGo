@@ -8,6 +8,7 @@ function send(){
     $('#help').modal('toggle');
     // $('#myModal').modal('show');
     // $('#myModal').modal('hide');
+    $('input').val('');
   }
 }
 
