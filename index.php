@@ -12,11 +12,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="format-detection" content="telephone=yes" />
   <!-- seo -->
-  <title>ZappGo - Criador de Conversas WhatsApp</title>
+  <title>ZappGo - Iniciar conversas no WhatsApp sem adicionar o contato</title>
   <meta name="author" content="Bruno Modinuti" />
-  <meta name="generator" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento" />
+  <meta name="generator" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento, whatsfake" />
   <meta name="description" content="Aplicativo online para conversar no WhatsApp sem adicionar o contato no celular. Compatível com web whatsapp, iOS e android." />
-  <meta name="keywords" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento" />
+  <meta name="keywords" content="whatsapp, api, chat, contato, adicionar, conversar, android, ios, web, aplicativo, aplicação, orçamento, whatsfake" />
   <!-- icon -->
   <link rel="icon" href="img/icone_whatsapp.png" type="image/x-icon" />
   <link rel="shortcut icon" href="img/icone_whatsapp.png" type="image/x-icon" />
