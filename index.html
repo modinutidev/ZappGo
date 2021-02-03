@@ -1,80 +1,104 @@
-<!-- Autor: Bruno Modinuti E-mail: modinutidev@gmail.com 2019 © Todos os direitos reservados. --> 
-<!DOCTYPE html> 
-<html lang="pt-br"> 
-    <head> 
-        <!-- metas --> 
-        <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, user-scalable=yes" /> 
-        <meta name="apple-mobile-web-app-capable" content="yes" /> 
-        <meta name="format-detection" content="telephone=yes" /> 
-        <!-- seo --> 
-        <title>ZappGo - Criar conversas no WhatsApp sem adicionar um número aos contatos</title> 
-        <meta name="author" content="Bruno Modinuti" /> 
-        <meta name="generator" content="whatsapp, chat, contato, adicionar, conversar, conversa, número, android, ios, web, aplicativo, aplicação, enviar, orçamento, whatsfake, myself, apk, app" /> 
-        <meta name="description" content="Aplicativo online para criar conversas no WhatsApp sem adicionar o número aos contatos. Compatível com web WhatsApp, iOS e Android." /> 
-        <meta name="keywords" content="whatsapp, chat, contato, adicionar, conversar, conversa, número, android, ios, web, aplicativo, aplicação, enviar, orçamento, whatsfake, myself, apk, app" /> 
-        <!-- icon --> 
-        <link rel="icon" href="img/favicon_web.png" type="image/x-icon" /> 
-        <link rel="shortcut icon" href="img/favicon_web.png" type="image/x-icon" /> 
-        <!-- styles --> 
-        <link rel="stylesheet" href=" https://modinutidev.github.io/zappgo/css/bootstrap.min.css" /> 
-        <script src=" https://modinutidev.github.io/zappgo/js/jquery-3.3.1.slim.min.js"></script> 
-        <script src=" https://modinutidev.github.io/zappgo/js/popper.min.js"></script> 
-        <script src=" https://modinutidev.github.io/zappgo/js/bootstrap.min.js"></script> 
-        <link rel="stylesheet" href=" https://modinutidev.github.io/zappgo/css/style.css"> 
-    </head> 
-    <body> 
-        <div class="container"> 
-            <div class="icone"></div> 
-            <div class="form-row"> 
-                <div class="col-sm-12"> 
-                    <div class="form-group"> 
-                        <label>Número</label> 
-                        <input class="form-control form-control" type="tel" placeholder="Ex.5511999999999"> 
-                    </div> 
-                </div> 
-                <div class="col-sm-12"> 
-                    <div class="form-group"> 
-                        <button class="btn btn-link" name="create">Criar Conversa</button> 
-                    </div> 
-                </div> 
-            </div> 
-            <div class="row"> 
-                <div class="col-6"> 
-                    <a href="#" data-toggle="modal" data-target="#help">Como usar?</a> 
-                </div> 
-                <div class="col-6 right"> 
-                    <a href="https://instagram.com/brunomodinuti" target="_blank">Bruno Modinuti</a> 
-                </div> 
-            </div> 
-        </div> 
-        <!-- modal --> 
-        <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-hidden="true"> 
-            <div class="modal-dialog" role="document"> 
-                <div class="modal-content"> 
-                    <div class="modal-header"> 
-                        <h5 class="modal-title" id="exampleModalLabel">ZappGo</h5> 
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
-                            <span aria-hidden="true">&times;</span> 
-                        </button> 
-                    </div> 
-                    <div class="modal-body"> 
-                        <p> 
-                            <label>Como usar?</label><br /> Para criar uma conversa entre com o <b>código do pais</b>, <b>DDD</b> e o <b>telefone</b>. <br /><br /> <label>Exemplo</label><br /> Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <b>55</b> (Código do Brasil), <b>11</b> (DDD) e <b>999999999</b> (O número do contato). Ficando desta maneira <b>5511999999999</b>. Após informar corretamente os dados, clique no botão <b>Criar Conversa</b>. <br /><br /> <label>Importante</label><br />Nenhuma informação fica registrada em nosso sistema. <br /><br /> <label>Suporte</label><br /> Para dúvidas, sugestões ou informações envie seu contato para o e-mail <b>suporte@zappgo.com</b>. 
-                        </p> 
-                    </div> 
-                    <div class="modal-footer"> 
-                        <button type="button" class="btn btn-link" data-dismiss="modal">Entendi!</button> 
-                    </div> 
-                </div> 
-            </div> 
-        </div> 
-        <!-- fim modal --> 
-    </body> 
-    <!-- scripts --> 
-    <script  src=" https://modinutidev.github.io/zappgo/js/script.js"></script> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145407135-1"></script> 
-    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-145407135-1'); </script> 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
-    <script> (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-1141850527825629", enable_page_level_ads: true }); </script> 
+<!-- 
+  Autor: Bruno Modinuti
+  E-mail: modinutidev@gmail.com
+  2019 © Todos os direitos reservados.
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- metas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="format-detection" content="telephone=yes" />
+  <!-- seo -->
+  <title>ZappGo - Criar conversas no WhatsApp sem adicionar um número aos contatos</title>
+  <meta name="author" content="Bruno Modinuti" />
+  <meta name="generator" content="whatsapp, chat, contato, adicionar, conversar, conversa, número, android, ios, web, aplicativo, aplicação, enviar, orçamento, whatsfake, myself, apk, app" />
+  <meta name="description" content="Aplicativo online para criar conversas no WhatsApp sem adicionar o número aos contatos. Compatível com web WhatsApp, iOS e Android." />
+  <meta name="keywords" content="whatsapp, chat, contato, adicionar, conversar, conversa, número, android, ios, web, aplicativo, aplicação, enviar, orçamento, whatsfake, myself, apk, app" />
+  <!-- icon -->
+  <link rel="icon" href="img/favicon_web.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/favicon_web.png" type="image/x-icon" />
+  <!-- styles -->
+  <link rel="stylesheet" href="https://modinutidev.github.io/zappgo/css/bootstrap.min.css" />
+  <script src="https://modinutidev.github.io/zappgo/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://modinutidev.github.io/zappgo/js/popper.min.js"></script>
+  <script src="https://modinutidev.github.io/zappgo/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://modinutidev.github.io/zappgo/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="icone"></div>
+    <div class="form-row">
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label>Número</label>
+          <input class="form-control form-control" type="tel" placeholder="Ex.5511999999999">
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="form-group">
+          <button class="btn btn-link" name="create">Criar Conversa</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <a href="#" data-toggle="modal" data-target="#help">Como usar?</a>
+      </div>
+      <div class="col-6 right">
+        <a href="https://instagram.com/brunomodinuti" target="_blank">Bruno Modinuti</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">ZappGo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>
+            <label>Como usar?</label><br />
+            Para criar uma conversa entre com o <b>código do pais</b>, <b>DDD</b> e o <b>telefone</b>.
+            <br /><br />
+            <label>Exemplo</label><br />
+            Suponha que você deseje enviar uma mensagem a alguém de São Paulo Capital. Você precisará digitar <b>55</b> (Código do Brasil), <b>11</b> (DDD) e <b>999999999</b> (O número do contato). Ficando desta maneira <b>5511999999999</b>. Após informar corretamente os dados, clique no botão <b>Criar Conversa</b>.
+            <br /><br />
+            <label>Importante</label><br />Nenhuma informação fica registrada em nosso sistema.
+            <br /><br />
+            <label>Suporte</label><br />
+            Para dúvidas, sugestões ou informações envie seu contato para o e-mail <b>suporte@zappgo.com</b>.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-link" data-dismiss="modal">Entendi!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fim modal -->
+</body>
+<!-- scripts -->
+<script  src="https://modinutidev.github.io/zappgo/js/script.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145407135-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-145407135-1');
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1141850527825629",
+    enable_page_level_ads: true
+  });
+</script>
 </html>
